@@ -1,6 +1,10 @@
 body {
     margin: 0em;
 }
+main {
+    width: 80vh;
+    margin: 0 auto;
+}
 header {
     text-align: center;
 }
@@ -53,7 +57,10 @@ figcaption {
     margin-top: 1em;
 }
 section {
-    margin: 1em;
+    margin-top: 1em;
+    border-left: 2px solid #ff000069;
+    margin-left: 3em;
+   
 }
 #featured {
     color: red;
@@ -85,12 +92,6 @@ ul,li {
 #method-description {
     font-weight:bold;
     margin-bottom: 1em;
-}
-ol p {
-    max-width: 78ch;
-}
-#read-more {
-    margin-left: 18em;
 }
 main hr {
     width: 50em;
